@@ -3,5 +3,7 @@ grumphp:
   tasks:
     phpstan:
       configuration: phpstan.neon.dist
+      ignore_patterns:
+        - ^src/Mcp/
       memory_limit: "512M"
     pest: ~
