@@ -1,0 +1,7 @@
+grumphp:
+  stop_on_failure: true
+  tasks:
+    phpstan:
+      configuration: phpstan.neon.dist
+      memory_limit: "512M"
+    pest: ~
